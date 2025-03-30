@@ -1,0 +1,23 @@
+{
+    "name": "electron-gemini-chat",
+    "version": "1.0.0",
+    "description": "A simple Electron chat app using Google Gemini",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "electron",
+        "gemini",
+        "ai",
+        "chat"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.24.0",
+        "dotenv": "^16.4.7",
+        "electron": "^35.1.2"
+    }
+}
